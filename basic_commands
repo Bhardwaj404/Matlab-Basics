@@ -4,3 +4,12 @@
 #rand(x)-creates a square matrix of x order with random elements mostly less than 1 
 #linspace(1:10:5)-creates a row of 1 to 10 containing any 5 elements 
 #x'-to transpose matrix x 
+#y=v(end)-Extract the last element of the variable v using the end keyword 
+#second to last element- v(end-1) 
+#the maximum value of a vector can be determined using the max function.
+xMax = max(x) 
+#The first element is the number of rows and the second element is the number of columns.
+s = size(x) 
+#[xrow,xcol] = size(x) Create the variables dr and dc that respectively contain the number of rows and columns of the variable data. 
+#You can find the maximum value of a vector and its corresponding index value using the max function. The first output from the max function is the maximum value of the input vector. When called with two outputs, the second output is the index value.
+[xMax,idx] = max(x) 
