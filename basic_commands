@@ -1,0 +1,6 @@
+##MATLAB BASICS 
+#ones(x,y)-creates a matrix of x,y containing only 1 
+#zeros(x,y)-creates a matrix of x,y containing only 0 
+#rand(x)-creates a square matrix of x order with random elements mostly less than 1 
+#linspace(1:10:5)-creates a row of 1 to 10 containing any 5 elements 
+#x'-to transpose matrix x 
