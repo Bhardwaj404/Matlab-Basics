@@ -17,4 +17,6 @@ x=randi(20,5,7)-Create a matrix named x that:
 Contains random integers in the range from 1 to 20 
 Has 5 rows 
 Has 7 columns 
+plot(sample,v1,"ro-",LineWidth=4) - Plot v1 (y-axis) against sample (x-axis) with red (r) circle (o) markers and a solid line (-). Use a line width of 4. 
+
 
