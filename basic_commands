@@ -13,3 +13,8 @@ s = size(x)
 #[xrow,xcol] = size(x) Create the variables dr and dc that respectively contain the number of rows and columns of the variable data. 
 #You can find the maximum value of a vector and its corresponding index value using the max function. The first output from the max function is the maximum value of the input vector. When called with two outputs, the second output is the index value.
 [xMax,idx] = max(x) 
+x=randi(20,5,7)-Create a matrix named x that: 
+Contains random integers in the range from 1 to 20 
+Has 5 rows 
+Has 7 columns 
+
