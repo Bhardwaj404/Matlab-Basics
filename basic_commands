@@ -18,5 +18,7 @@ Contains random integers in the range from 1 to 20
 Has 5 rows 
 Has 7 columns 
 plot(sample,v1,"ro-",LineWidth=4) - Plot v1 (y-axis) against sample (x-axis) with red (r) circle (o) markers and a solid line (-). Use a line width of 4. 
+x=pi<4 - returns 1 
+z=sample==18 - checks for element in z that are equal to 18 
 
 
